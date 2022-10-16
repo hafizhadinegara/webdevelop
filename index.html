@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    
+    <div class="container">
+      <div class="socialmedia animate__animated animate__backInUp"> </div>
+    
+      <div class="welcome"> REZPECTOR CELL</div>
+    
+      <button class="button1"><a href ="">HOME</a></button>
+      <button class="button1"><a href="contact.html"> Contact</a> </button>
+    
+      <div class="cta">
+        <model-viewer src="scene.gltf" camera-controls
+          camera-orbit="45deg 50deg" disable-zoom auto-rotate
+          shadow-intensity="1"></model-viewer>
+      </div>
+
+      
+
+      <div class="newBox" id="newBox">
+        <div class="productBox" id="productBox1">
+          <img src="iphone11.png" alt=""/>
+          <div class="titleBox">TESTING BOX 1</div>
+          <div class="descriptionBox">DESKRIPSI BOX 1</div>
+        </div>
+        <div class="productBox" id="productBox2">
+          <img src="iphone12.png" alt=""/>
+          <div class="titleBox">TESTING BOX 2</div>
+          <div class="descriptionBox">DESKRIPSI BOX 2</div>
+        </div>
+        <div class="productBox" id="productBox3">
+          <img src="iphone13.png" alt=""/>
+          <div class="titleBox">TESTING BOX 3</div>
+          <div class="descriptionBox">DESKRIPSI BOX 3</div>
+        </div>
+        <div class="productBox" id="productBox4">
+          <img src="iphone14.png" alt=""/>
+          <div class="titleBox">TESTING BOX 4</div>
+          <div class="descriptionBox">DESKRIPSI BOX 4</div>
+        </div>
+        <div class="productBox" id="productBox5">
+          <img src="nike5.png" alt=""/>
+          <div class="titleBox">TESTING BOX 5</div>
+          <div class="descriptionBox">DESKRIPSI BOX 5</div>
+        </div>
+        <div class="productBox" id="productBox6">
+          <img src="nike6.png" alt=""/>
+          <div class="titleBox">TESTING BOX 6</div>
+          <div class="descriptionBox">DESKRIPSI BOX 6</div>
+        </div>
+    
+      </div>
+
+      <div class="wrapper" id="wrapper">
+        <div class="card">
+          <div class="product" id="product1" onclick="getDetail(1)">
+            <img src="iphone11.png" alt=""/>
+          </div>
+          <div class="detail">
+            <div class="title">IPHONE 11</div>
+            <div class="description"></div>
+          </div>
+        </div>
+        <div class="card">
+          <div class="product" id="product2" onclick="getDetail(2)">
+            <img src="iphone12.png" alt=""/>
+          </div>
+          <div class="detail">
+            <div class="title">IPHONE 12</div>
+            <div class="description"></div>
+          </div>
+        </div>
+        <div class="card">
+          <div class="product" id="product3" onclick="getDetail(3)">
+            <img src="iphone13.png" alt=""/>
+          </div>
+          <div class="detail">
+            <div class="title">IPHONE 13</div>
+            <div class="description"></div>
+          </div>
+        </div>
+        <div class="card">
+          <div class="product" id="product4" onclick="getDetail(4)">
+            <img src="iphone14.png" alt=""/>
+          </div>
+          <div class="detail">
+            <div class="title">IPHONE 14</div>
+            <div class="description"></div>
+          </div>
+        </div>
+        
+      </div>
+    </div>
+
+    <div class="top-item">
+      <div class="top-item-wrapper">
+        <div class="top-item-row">
+          <img src="apple.png" alt="">
+          <div class="top-item-detail">
+            <h3>Best Reseller </h3>
+            <p>Copyright &copy; 2022 - Rezpector Team. All Rights Reserved.</p>
+            <ul class="icon">
+  
+              <li> <a href="https://wa.me/6282179775266?text=Hafizh"> <i class="fa-brands fa-whatsapp"></i> </a> </li>
+              <li> <a href="https://instagram.com/rzpctr.team?igshid=NmNmNjAwNzg="> <i class="fa-brands fa-instagram"></i>
+                 </a> </li>
+           </ul>
+           
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script type="module"
+      src="https://unpkg.com/@google/model-viewer/dist/model-viewer.min.js"></script>
+    <script src="tweak.js"></script>
+  </body>
+</html>
